@@ -6,6 +6,7 @@ public/workbox-*.js
 /.pnp
 .pnp.js
 
+storybook-static
 # testing
 /coverage
 

@@ -1,10 +1,13 @@
 module.exports = {
-  "stories": [
-    "../src/components/**/stories.tsx",
-    "../src/**/*.stories.@(js|jsx|ts|tsx)"
-  ],
-  "addons": [
-    "@storybook/addon-essentials"
-  ],
-  "framework": "@storybook/react"
+  stories: ['../src/components/**/stories.tsx'],
+  addons: ['@storybook/addon-essentials'],
+  babel: async (options) => {
+    return ({
+    ...options,
+    plugins: [...options.plugins, require.resolve('@babel/plugin-transform-react-jsx')]
+  })},
+  webpackFinal: (config) => {
+    config.resolve.modules.push(`${process.cwd()}/src`)
+    return config
+  }
 }
