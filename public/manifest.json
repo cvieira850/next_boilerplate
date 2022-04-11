@@ -10,11 +10,12 @@
     {
       "src": "/img/icon-512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "background_color": "#06092B",
-  "description": "Boilerplate utilizando Typescript, React, NextJS e Styled Components!",
+  "description": "Boilerlate utilizando Typescript, React, NextJS e Styled Components!",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#06092B"
