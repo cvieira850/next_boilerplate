@@ -6542,14 +6542,15 @@ eslint-plugin-react@^7.29.4:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.6"
 
-eslint-plugin-storybook@^0.5.8:
-  version "0.5.8"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.5.8.tgz#2830cad780e20c2642874e79486f0c075d5ddf82"
-  integrity sha512-k67mXT9dOl0z8RFWL9SAQ38NaNst6BjCUDQudaDGjMJHrXncOfCSOz9ROGIVu//zVepZw8D3abdGn9OVvyJ3QA==
+eslint-plugin-storybook@^0.6.7:
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.6.7.tgz#85e81f4d5d7af541d6abe5657f4f8b8dfb69b83e"
+  integrity sha512-lcUsB+3PesKWXwwEHGSTCijKWDXuQ4ITVbnsSDMXRCR/cjGtHZIEcy2pp/Eh7nfWA/GZrDPpK97DsTWEzyN6Bw==
   dependencies:
     "@storybook/csf" "^0.0.1"
     "@typescript-eslint/experimental-utils" "^5.3.0"
     requireindex "^1.1.0"
+    ts-dedent "^2.2.0"
 
 eslint-scope@^4.0.3:
   version "4.0.3"
